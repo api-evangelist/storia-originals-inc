@@ -1,8 +1,25 @@
 aid: storia-originals-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/storia-originals-inc.png
 name: Storia Originals, Inc.
-description: Storia Originals, Inc. is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Storia Originals, Inc. (doing business as Storiaverse) was a Los Angeles-based consumer
+  mobile entertainment startup founded in 2023 by Agnes Kozera and David Kierzkowski. Its Storiaverse
+  app pioneered a patent-pending "read-watch" format blending short-form reading, animation, and audio,
+  connecting writers and animators to publish and monetize original stories across sci-fi, fantasy,
+  horror, mystery, and comedy, including adaptations of HarperCollins titles. It raised a pre-seed round
+  led by 500 Global. As of this enrichment pass the company exposes no public API, SDK, or developer
+  platform; both its marketing site (storia.io) and its iOS/Android app store listings are no longer
+  reachable (all HTTP 404), indicating the product is inactive or has been wound down.
 url: https://raw.githubusercontent.com/api-evangelist/storia-originals-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Entertainment
+- Media
+- Storytelling
+- Animation
+- Mobile App
+- Publishing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +47,11 @@ maintainers:
 common:
 - type: Website
   url: https://storia.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: Consumer read-watch mobile storytelling app (Storiaverse); no public API/SDK/developer
+    surface. Marketing site (storia.io/storiaverse.com) and App Store/Google Play listings all return
+    404 — product appears inactive/wound down. No artifacts to enrich.
