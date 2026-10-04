@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/storia-originals-inc.png
-name: Storia Originals, Inc.
+name: Storia Originals
 description: Storia Originals, Inc. (doing business as Storiaverse) was a Los Angeles-based consumer
   mobile entertainment startup founded in 2023 by Agnes Kozera and David Kierzkowski. Its Storiaverse
   app pioneered a patent-pending "read-watch" format blending short-form reading, animation, and audio,
@@ -66,3 +66,4 @@ x-enrichment:
   note: Consumer read-watch mobile storytelling app (Storiaverse); no public API/SDK/developer
     surface. Marketing site (storia.io/storiaverse.com) and App Store/Google Play listings all return
     404 — product appears inactive/wound down. No artifacts to enrich.
+x-legal-name: Storia Originals, Inc.
